@@ -1,0 +1,16 @@
+# See configuration parameters here: https://jekyllrb.com/docs/configuration/default/
+
+title: GEO GTA SA
+description: გაქართულებული GTA San Andreas
+
+url: "https://geo-gta-sa.github.io"
+baseurl: "/blog"
+
+show_excerpts: true
+excerpt_separator: <!--more-->
+
+github_url: https://github.com/geo-gta-sa
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

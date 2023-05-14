@@ -1,0 +1,66 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: default
+---
+<div class="container col-xxl-8 my-5 shadow p-3 bg-body-tertiary rounded">
+    <div class="row flex-lg-row-reverse align-items-center g-5 p-4">
+        <div class="col-10 col-sm-8 col-lg-6">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <a href="{{ '/assets/image/screenshots/1.png' | relative_url }}" target="_blank">
+                            <img src="{{ '/assets/image/screenshots/1.png' | relative_url }}" alt="game screenshot 1"
+                                 class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="{{ '/assets/image/screenshots/2.png' | relative_url }}" target="_blank">
+                            <img src="{{ '/assets/image/screenshots/2.png' | relative_url }}" alt="game screenshot 1"
+                                 class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="{{ '/assets/image/screenshots/3.png' | relative_url }}" target="_blank">
+                            <img src="{{ '/assets/image/screenshots/3.png' | relative_url }}" alt="game screenshot 1"
+                                 class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <h1 class="text-center">GTA San Andreas ქართულად</h1>
+            <h3 class="text-center mb-2">v0.0.2 (არასრული)</h3>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;კარლ ჯონსონს (მეტსახელად სიჯეის) ბედმა არ გაუღიმა. ციხიდან გამოსული იგი უბრუნდება
+                საკუთარ მშობლიურ ქალაქს - სან ანდრეასს, სადაც იგი ყველასგან მიტოვებული და მივიწყებულია. მისი ძველი
+                მეგობრები ცდილობენ იგი ძველ ბანდიტურ საქმიანობებში ჩართონ. ყველაფერი ნამდვილად შეიცვალა სიჯეისთვის და
+                მანაც ფეხი უნდა აუწყოს ახალ სამყაროს.
+            </p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;დაეხმარეთ მას დაბრუნებაში და რეპუტაციის მოხვეჭაში. თქვენ გელოდებათ განუმეორებელი
+                თავგადასავლები ბანდებითა და კრიმინალებით სავსე ქალაქ სან ანდრეასში.</p>
+            <div class="d-flex gap-2 justify-content-center">
+                <a href="{{site.data.download.url}}" class="btn btn-primary btn-lg px-4">გადმოწერა</a>
+            </div>
+        </div>
+    </div>
+</div>
